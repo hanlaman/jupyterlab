@@ -128,6 +128,7 @@ export class RunningSessions extends VDomRenderer<RunningSessions.Model> {
       this.model.terminals,
       this.model!.sessions
     );
+    this.title.title = this.title.caption; // Set the tooltip text to the same as the caption
     return (
       <RunningSessionsComponent
         sessions={this.model.sessions}
