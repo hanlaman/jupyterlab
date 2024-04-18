@@ -52,11 +52,11 @@ See the sections below (and the top-level links above) for more information abou
    developer/contributing
    privacy_policies
 
-.. .. only:: html
 
-   <div class="alert alert-warning" role="alert">
-      <strong>Note:</strong> The following section provides guidelines for menu item labeling based on Apple's Human Interface Guidelines.
-   </div>
+.. note:: 
+  
+     The following section provides guidelines for menu item labeling based on Apple's Human Interface Guidelines.
+
 
 Menu Item Labeling Guidelines
 ------------------------------
