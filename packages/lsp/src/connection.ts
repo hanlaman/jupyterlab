@@ -268,15 +268,9 @@ export class LSPConnection extends LspWsConnection implements ILSPConnection {
     if (this.isDisposed) {
       return;
     }
-
-    /**
-     * Check if serverRequests is defined before accessing values
-     */
-    if (this.serverRequests) {
-      Object.values(this.serverRequests).forEach(request =>
-        request.clearHandler()
+    Object.values(this.serverRequests).forEach(request =>
+      request.clearHandler()
     );
-    }
     this.close();
     super.dispose();
   }
